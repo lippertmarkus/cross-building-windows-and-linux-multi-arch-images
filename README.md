@@ -1,6 +1,6 @@
 # Examples for cross-building multi-arch images for Windows and Linux on Linux
 
-Details see blogpost: TOD
+Details see blogpost: https://lippertmarkus.com/2021/11/30/win-multiarch-img-lin/
 
 **Example for cross-building and pushing multi-arch image for several Linux architectures AND Windows versions for a Go application**
 ```bash
