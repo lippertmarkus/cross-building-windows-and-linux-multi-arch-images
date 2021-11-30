@@ -1,0 +1,10 @@
+ARG WINBASE
+FROM golang:nanoserver-1809 AS build
+WORKDIR /src
+COPY . .
+RUN go get -d -v ./...
+RUN go build -o app -v ./...
+
+FROM ${WINBASE}
+ENTRYPOINT [ "app.exe" ]
+COPY --from=build /src/app app.exe
