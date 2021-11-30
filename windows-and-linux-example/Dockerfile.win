@@ -1,3 +1,4 @@
+# not recommended example
 ARG WINBASE
 FROM golang:nanoserver-1809 AS build
 WORKDIR /src
