@@ -8,8 +8,8 @@ cd windows-and-linux-example/
 ./build.sh myrepository/myapp:mytag  # may run docker login before
 ```
 
-**Exampe for cross-building and pushing multi-arch image for several Windows versions for .NET, Go, Rust applications and traefik reverse proxy**
+**Exampe for cross-building and pushing multi-arch image for several Windows versions for .NET, Go, Rust applications, apps with external deps and traefik reverse proxy**
 ```bash
-cd windows-examples/dotnet/  # or go, rust, traefik subfolder
+cd windows-examples/dotnet/  # or go, rust, traefik, external-deps subfolder
 ../build.sh myrepository/myapp:mytag  # may run docker login before
 ```
